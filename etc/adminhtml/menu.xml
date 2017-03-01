@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Tricore_Blog::blog_content" title="Blog" module="Tricore_Blog" sortOrder="50" parent="Magento_Backend::content" resource="Tricore_Blog::blog_content" />
+        <add id="Tricore_Blog::post" title="Posts" module="Tricore_Blog" sortOrder="0" parent="Tricore_Blog::blog_content" action="blog/post" resource="Tricore_Blog::post"/>
+    </menu>
+</config>

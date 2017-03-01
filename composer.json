@@ -1,6 +1,7 @@
 {
   "name": "tricore/blog",
   "description": "Description of your Magento 2 module",
+  "minimum-stability": "dev",
   "version": "1.0.0",
   "license": [
     "OSL-3.0",
